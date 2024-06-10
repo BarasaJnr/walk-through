@@ -1,0 +1,19 @@
+:root {
+        --primary-color: #6495ed;
+        --bg-color: white;
+        --color: #333;
+      }
+      
+      [data-theme="dark"] {
+        --primary-color: #2b3f63;
+        --bg-color: #000;
+        --color: #ddd;
+      }
+body {
+    margin: 0;
+    font-family: -apple-system, Roboto, segoe ui;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
