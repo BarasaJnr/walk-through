@@ -1,6 +1,25 @@
 <script>
     import { page } from "$app/stores";
     
+    const navs = [
+        {
+            title: "Home",
+            href: "/"
+        },
+        {
+            title: "About",
+            href: "/about"
+        },
+        {
+            title: "Services",
+            href: "/services"
+        },
+        {
+            title: "Contact",
+            href: "/contact"
+        },
+      
+    ]
     $: routeId = $page.route.id;
 </script>
 
@@ -9,18 +28,13 @@
 <h1>Start walkthrough</h1>
 
     <ul>
+        {#each navs as { title, href }}
         <li>
-            <a href="/" class:active={routeId == "/"}>Home</a>
+            <a {href} class:active={routeId == href} title={title}>
+                {title}
+            </a>
         </li>
-        <li>
-            <a href="/about" class:active={routeId == "/about"}>About</a>
-        </li>
-        <li>
-            <a href="/services" class:active={routeId == "/services"}>Services</a>
-        </li>
-        <li>
-            <a href="/contact" class:active={routeId == "/contact"}>Contact</a>
-        </li>
+        {/each}
     </ul>
     </div>
 </nav>
@@ -32,6 +46,7 @@
     }
     .container {
         display: flex;
+        align-items: center;
     }
     ul {
         display: flex;
@@ -54,6 +69,6 @@
         font-weight: normal;
     }
     .active {
-        color: blue;
+        color: black;
     }
 </style>
