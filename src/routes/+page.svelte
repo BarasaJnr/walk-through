@@ -1,2 +1,5 @@
-
-<div class="container">home</div>
+<script>
+    import Hero from "./Hero.svelte";
+</script>
+<Hero />
+home
