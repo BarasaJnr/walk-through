@@ -10,7 +10,7 @@
         href: "/",
       },
       {
-        title: "About",
+        title: "About Us",
         href: "/about",
       },
       {
@@ -56,7 +56,7 @@
   <nav>
     <div class="container">
       <a class="logo" href="/">
-        <h1>Start Bootstrap</h1>
+        <h1>ValleyGreen Academy</h1>
       </a>
       <ul>
         {#each navs as { title, href }}

@@ -9,6 +9,7 @@
   
   <div class="container">
     <h2>Contact us</h2>
+    <p>Get in touch with us to learn more about our school and how we can help your child.</p>
     {#if form?.success}
       <p class="success">{form?.status || ""}</p>
     {:else}

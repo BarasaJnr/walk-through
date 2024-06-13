@@ -7,10 +7,7 @@
     <div class="what">
       <h3>About Us</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque
-        tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel,
-        porro, soluta unde debitis aliquam laboriosam. Repellat explicabo,
-        maiores!
+        ValleyGreen Academy was founded in 2010 with a mission to provide a world-class education that empowers young minds to achieve their full potential. Our values are rooted in our commitment to academic excellence, character development, and community service.
       </p>
   
       <p>

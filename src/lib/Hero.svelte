@@ -1,10 +1,8 @@
 <div class="hero">
     <div class="container">
-      <h2>Business Name</h2>
+      <h2>Empowering Young Minds</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non possimus ab
-        labore provident mollitia. Id assumenda voluptate earum corporis facere
-        quibusdam quisquam iste ipsa cumque unde nisi, totam quas ipsam.
+        Welcome to ValleyGreen Academy, a premier educational institution in Nairobi, Kenya. Our mission is to provide a world-class education that empowers young minds to achieve their full potential.
       </p>
     </div>
   </div>
