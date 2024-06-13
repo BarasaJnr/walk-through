@@ -18,8 +18,7 @@
         commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.
       </p>
   
-      <button class="secondary" id="a-button" size="medium"
-        >Call To Action >></button>
+      <button class="secondary" id="a-button" >Call To Action >> </button> 
     </div>
     <contact />
   </div>

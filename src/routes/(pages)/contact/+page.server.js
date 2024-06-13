@@ -1,5 +1,5 @@
 import { fail } from "@sveltejs/kit";
-import { object, string, number, date, InferType } from "yup";
+import { object, string } from "yup";
 
 export const actions = {
   default: async ({ request }) => {
@@ -30,9 +30,7 @@ export const actions = {
       };
     } catch (error) {
       console.log({ error });
-      const errors = error.inner.reduce((acc, err) => {
-        return { ...acc, [err.path]: err.message };
-      }, {});
+      const errors = error 
 
       return {
         errors,

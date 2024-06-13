@@ -1,6 +1,6 @@
 <div class="contact">
     <h3>Contact Us</h3>
-    <p><strong>Start walkthrough</strong></p>
+    <p><strong>Start Walkthrough</strong></p>
     <p>Humming Place</p>
     <p>Miami, AX 789</p>
     <p>Phone: (000) 478976</p>
