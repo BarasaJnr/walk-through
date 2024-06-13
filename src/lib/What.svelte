@@ -7,15 +7,10 @@
     <div class="what">
       <h3>What We Do?</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque
-        tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel,
-        porro, soluta unde debitis aliquam laboriosam. Repellat explicabo,
-        maiores!
+        We are committed to providing a world-class education that empowers young minds to achieve their full potential. Our experienced and dedicated teachers work closely with students to identify their strengths and weaknesses, developing personalized learning plans that cater to their unique needs. We offer a range of extracurricular activities and programs that promote creativity, critical thinking, and problem-solving skills, from sports to arts and music.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio
-        neque consectetur consequatur magni in nisi, natus beatae quidem quam odit
-        commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.
+       We believe that education is not just about academics, but also about building character, developing emotional intelligence, and cultivating a sense of social responsibility. We strive to create a community that values diversity, inclusivity, and respect for all individuals, and we encourage our students to become active participants in shaping their own learning journey. By providing a supportive and stimulating environment, we aim to inspire our students to become confident, creative, and compassionate individuals who are equipped to make a positive impact in the world.
       </p>
   
       <button class="secondary" id="a-button" >Call To Action >> </button> 
