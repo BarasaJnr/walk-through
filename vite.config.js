@@ -1,4 +1,6 @@
 import { sveltekit } from "@sveltejs/kit/vite";
+import { defineConfig } from "vite";
+import { viteStaticHtml } from "vite-plugin-static-html";
 
 /** @type {import('vite').UserConfig} */
 const config = {
@@ -11,4 +13,9 @@ const config = {
   },
 };
 
-export default config;
+export default defineConfig({
+  plugins: [viteStaticHtml({
+    dir: 'public',
+  }),
+  ],
+});
